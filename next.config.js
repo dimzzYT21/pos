@@ -9,7 +9,7 @@ const nextConfig = {
 }
 export default function RootPage() {
   // Langsung alihkan pengguna ke halaman aplikasi/kasir
-  redirect('/admin/pos')
+  redirect('/src/app')
 }
 
 module.exports = nextConfig
